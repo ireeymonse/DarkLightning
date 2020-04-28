@@ -65,11 +65,11 @@ internal func CFSocketSetReuseFlags(socket: CFSocket) {
 	CFSocketSetOption(
 		socket: socket,
 		option: SO_REUSEADDR,
-		aValue: Int(true)
+        aValue: Int(truncating: true)
 	)
 	CFSocketSetOption(
 		socket: socket,
 		option: SO_REUSEPORT,
-		aValue: Int(true)
+        aValue: Int(truncating: true)
 	)
 }

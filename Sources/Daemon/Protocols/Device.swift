@@ -33,7 +33,7 @@ import Foundation
  * Represents a Device with which you can connect and interact.
  *
  */
-public protocol Device: class, Equatable {
+public protocol Device: Equatable {
     
     /**
      *

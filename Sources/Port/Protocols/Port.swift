@@ -33,7 +33,7 @@ import Foundation
  * Represents a Port that can receive connections and send data.
  *
  */
-public protocol Port: class, Equatable {
+public protocol Port: Equatable {
     /**
      *
      * Tells the Port to allow incoming connections.

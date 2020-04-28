@@ -66,7 +66,7 @@ internal final class ReadStreamReaction: NSObject, StreamDelegate {
     // MARK: - Private
     
     deinit {
-        data.deallocate(capacity: Int(bufferSize))
+        data.deallocate()
     }
     
     // MARK: StreamDelegate
