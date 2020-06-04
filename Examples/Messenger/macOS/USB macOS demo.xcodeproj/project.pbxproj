@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC3F31424885ADC007CCC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3F31324885ADC007CCC92 /* AppDelegate.swift */; };
+		0BC3F31624885AE1007CCC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC3F31524885AE1007CCC92 /* Assets.xcassets */; };
+		0BC3F31924885AE1007CCC92 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC3F31724885AE1007CCC92 /* MainMenu.xib */; };
+		0BC3F32924885C6E007CCC92 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3F32624885C6D007CCC92 /* RootView.swift */; };
+		0BC3F32A24885C6E007CCC92 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3F32724885C6E007CCC92 /* RootViewController.swift */; };
+		0BC3F32B24885C6E007CCC92 /* RootViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3F32824885C6E007CCC92 /* RootViewDelegate.swift */; };
+		0BF8811B0D0B8F51D117A8D5 /* Pods_USB_macOS_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DAE896264F7B9B5B13C876 /* Pods_USB_macOS_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BC3F31024885ADC007CCC92 /* USB macOS demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USB macOS demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC3F31324885ADC007CCC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BC3F31524885AE1007CCC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BC3F31824885AE1007CCC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0BC3F31A24885AE1007CCC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC3F31B24885AE1007CCC92 /* USB_macOS_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = USB_macOS_demo.entitlements; sourceTree = "<group>"; };
+		0BC3F32624885C6D007CCC92 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0BC3F32724885C6E007CCC92 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		0BC3F32824885C6E007CCC92 /* RootViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewDelegate.swift; sourceTree = "<group>"; };
+		52DAE896264F7B9B5B13C876 /* Pods_USB_macOS_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USB_macOS_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE88BEEC76566BB1BC5A620 /* Pods-USB macOS demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USB macOS demo.release.xcconfig"; path = "Target Support Files/Pods-USB macOS demo/Pods-USB macOS demo.release.xcconfig"; sourceTree = "<group>"; };
+		BEDFD9AF57426F23A7E64FCB /* Pods-USB macOS demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USB macOS demo.debug.xcconfig"; path = "Target Support Files/Pods-USB macOS demo/Pods-USB macOS demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BC3F30D24885ADC007CCC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF8811B0D0B8F51D117A8D5 /* Pods_USB_macOS_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC3F30724885ADC007CCC92 = {
+			isa = PBXGroup;
+			children = (
+				0BC3F31224885ADC007CCC92 /* USB macOS demo */,
+				0BC3F31124885ADC007CCC92 /* Products */,
+				E0746374B3EB7DE414A5CB7C /* Pods */,
+				BFA9EC1F930BCE4A05F5B173 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BC3F31124885ADC007CCC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BC3F31024885ADC007CCC92 /* USB macOS demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BC3F31224885ADC007CCC92 /* USB macOS demo */ = {
+			isa = PBXGroup;
+			children = (
+				0BC3F31324885ADC007CCC92 /* AppDelegate.swift */,
+				0BC3F31524885AE1007CCC92 /* Assets.xcassets */,
+				0BC3F31724885AE1007CCC92 /* MainMenu.xib */,
+				0BC3F32624885C6D007CCC92 /* RootView.swift */,
+				0BC3F32724885C6E007CCC92 /* RootViewController.swift */,
+				0BC3F32824885C6E007CCC92 /* RootViewDelegate.swift */,
+				0BC3F31A24885AE1007CCC92 /* Info.plist */,
+				0BC3F31B24885AE1007CCC92 /* USB_macOS_demo.entitlements */,
+			);
+			path = "USB macOS demo";
+			sourceTree = "<group>";
+		};
+		BFA9EC1F930BCE4A05F5B173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DAE896264F7B9B5B13C876 /* Pods_USB_macOS_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0746374B3EB7DE414A5CB7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEDFD9AF57426F23A7E64FCB /* Pods-USB macOS demo.debug.xcconfig */,
+				8AE88BEEC76566BB1BC5A620 /* Pods-USB macOS demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BC3F30F24885ADC007CCC92 /* USB macOS demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC3F31E24885AE1007CCC92 /* Build configuration list for PBXNativeTarget "USB macOS demo" */;
+			buildPhases = (
+				2639DA8A7933F58EB70239AB /* [CP] Check Pods Manifest.lock */,
+				0BC3F30C24885ADC007CCC92 /* Sources */,
+				0BC3F30D24885ADC007CCC92 /* Frameworks */,
+				0BC3F30E24885ADC007CCC92 /* Resources */,
+				1641CABC97A5B093CF98300B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USB macOS demo";
+			productName = "USB macOS demo";
+			productReference = 0BC3F31024885ADC007CCC92 /* USB macOS demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BC3F30824885ADC007CCC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Iree García";
+				TargetAttributes = {
+					0BC3F30F24885ADC007CCC92 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0BC3F30B24885ADC007CCC92 /* Build configuration list for PBXProject "USB macOS demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BC3F30724885ADC007CCC92;
+			productRefGroup = 0BC3F31124885ADC007CCC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC3F30F24885ADC007CCC92 /* USB macOS demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC3F30E24885ADC007CCC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC3F31624885AE1007CCC92 /* Assets.xcassets in Resources */,
+				0BC3F31924885AE1007CCC92 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1641CABC97A5B093CF98300B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USB macOS demo/Pods-USB macOS demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USB macOS demo/Pods-USB macOS demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-USB macOS demo/Pods-USB macOS demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2639DA8A7933F58EB70239AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USB macOS demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC3F30C24885ADC007CCC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC3F32924885C6E007CCC92 /* RootView.swift in Sources */,
+				0BC3F31424885ADC007CCC92 /* AppDelegate.swift in Sources */,
+				0BC3F32A24885C6E007CCC92 /* RootViewController.swift in Sources */,
+				0BC3F32B24885C6E007CCC92 /* RootViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BC3F31724885AE1007CCC92 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC3F31824885AE1007CCC92 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BC3F31C24885AE1007CCC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BC3F31D24885AE1007CCC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0BC3F31F24885AE1007CCC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDFD9AF57426F23A7E64FCB /* Pods-USB macOS demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "USB macOS demo/USB_macOS_demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "USB macOS demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.iree.USB-macOS-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0BC3F32024885AE1007CCC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE88BEEC76566BB1BC5A620 /* Pods-USB macOS demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "USB macOS demo/USB_macOS_demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "USB macOS demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.iree.USB-macOS-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC3F30B24885ADC007CCC92 /* Build configuration list for PBXProject "USB macOS demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC3F31C24885AE1007CCC92 /* Debug */,
+				0BC3F31D24885AE1007CCC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC3F31E24885AE1007CCC92 /* Build configuration list for PBXNativeTarget "USB macOS demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC3F31F24885AE1007CCC92 /* Debug */,
+				0BC3F32024885AE1007CCC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BC3F30824885ADC007CCC92 /* Project object */;
+}

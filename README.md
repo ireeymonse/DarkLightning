@@ -77,6 +77,8 @@ port.writeData(data: data!)
 
 ### 4.2 OSX
 
+> **_NOTE:_**  Newer versions of macOS won't work unless you deactivate "App Sandbox" in the entitlements. 
+
 #### 4.2.1 Initialization
 
 ```swift

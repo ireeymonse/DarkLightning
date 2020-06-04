@@ -1,0 +1,20 @@
+PODS:
+  - DarkLightning (2.0.0-alpha1):
+    - DarkLightning/iOS (= 2.0.0-alpha1)
+    - DarkLightning/OSX (= 2.0.0-alpha1)
+    - DarkLightning/tvOS (= 2.0.0-alpha1)
+  - DarkLightning/iOS (2.0.0-alpha1)
+
+DEPENDENCIES:
+  - DarkLightning (from `../../..`)
+
+EXTERNAL SOURCES:
+  DarkLightning:
+    :path: "../../.."
+
+SPEC CHECKSUMS:
+  DarkLightning: 1a907e570ed08a53ee22498e9fffcd95ed819762
+
+PODFILE CHECKSUM: 951dd7ce9564d2dc5eca4c37b0e5c617178deb21
+
+COCOAPODS: 1.9.3
